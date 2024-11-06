@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="001 adsoyadgiris"/>
+        <attribute name="authors" value="ogrt"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-11-06 11:35:17 &#214;&#214;"/>
+        <attribute name="created" value="b2dydDtMQUI2LU9HUkVUTUVOOzIwMjQtMTEtMDY7MTE6MzI6NTQgw5bDljsyOTA2"/>
+        <attribute name="edited" value="b2dydDtMQUI2LU9HUkVUTUVOOzIwMjQtMTEtMDY7MTE6MzU6MTcgw5bDljsxOzMwMTY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="adi" type="String" array="False" size=""/>
+            <declare name="soyadi" type="String" array="False" size=""/>
+            <input variable="adi"/>
+            <input variable="soyadi"/>
+            <output expression="&quot;Merhaba &quot;&amp;adi&amp;&quot; &quot;&amp;soyadi" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
