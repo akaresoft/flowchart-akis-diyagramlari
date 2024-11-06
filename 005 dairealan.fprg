@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="dairealan"/>
+        <attribute name="authors" value="ogrt"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-18 04:03:35 &#214;S"/>
+        <attribute name="created" value="b2dydDtMQUI2LU9HUkVUTUVOOzIwMjQtMDktMTg7MDM6NTU6NTkgw5ZTOzI3OTY="/>
+        <attribute name="edited" value="b2dydDtMQUI2LU9HUkVUTUVOOzIwMjQtMDktMTg7MDQ6MDM6MzUgw5ZTOzE7Mjg5Mg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="r" type="Real" array="False" size=""/>
+            <declare name="alan" type="Real" array="False" size=""/>
+            <declare name="cevre" type="Real" array="False" size=""/>
+            <input variable="r"/>
+            <assign variable="alan" expression="3.14*r^2"/>
+            <assign variable="cevre" expression="2*3.14*r"/>
+            <output expression="&quot;Dairenin alan&#305;:&quot;&amp; alan" newline="True"/>
+            <output expression="&quot;Dairenin &#199;evresi:&quot;&amp;cevre" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
