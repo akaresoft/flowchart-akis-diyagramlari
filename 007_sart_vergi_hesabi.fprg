@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="007_sart_vergi_hesabi"/>
+        <attribute name="authors" value="ogrt"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-11-27 11:18:03 &#214;&#214;"/>
+        <attribute name="created" value="b2dydDtMQUI2LU9HUkVUTUVOOzIwMjQtMTEtMjc7MTE6MTI6NTcgw5bDljsyOTEw"/>
+        <attribute name="edited" value="b2dydDtMQUI2LU9HUkVUTUVOOzIwMjQtMTEtMjc7MTE6MTg6MDMgw5bDljsxOzMwMTU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="'Devlet sat&#305;&#351;a g&#246;re vergi almaktad&#305;r. A&#351;a&#287;&#305;daki vergi dilimlerine g&#246;re &#246;denecek miktar&#305; bulan ak&#305;&#351; diyagram&#305;n&#305; &#231;iziniz. &#13;&#10;Satis&lt;250000 vergi %20,&#13;&#10;Satis&gt;=250000 vergi %30'"/>
+            <declare name="satis" type="Integer" array="False" size=""/>
+            <declare name="vergi" type="Integer" array="False" size=""/>
+            <input variable="satis"/>
+            <if expression="satis&lt;250000">
+                <then>
+                    <assign variable="vergi" expression="satis*20/100"/>
+                </then>
+                <else>
+                    <assign variable="vergi" expression="satis*30/100"/>
+                </else>
+            </if>
+            <output expression="&quot;Vergi Miktar&#305;=&quot;&amp;vergi" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
