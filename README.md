@@ -1,6 +1,6 @@
 **Akış Diyagramları (Flowchart)**
 
-Bu bölümde programlamaya giriş için Flowgorithm uygulaması ile akış diyagramları(flowchart) örnekleri yapılacaktır. Flowgorithm uygulamasını ücretsiz olarak bilgisayarınıza indirip kurabilirsiniz. 
+Bu bölümde programlamaya giriş için Flowgorithm uygulaması ile akış diyagramları(flowchart) örnekleri yapılacaktır. Flowgorithm uygulamasının avantajı hem akış diyagramı çizilebilmesi hem de çalıştırılıp sonucunun görülebilmesidir. Flowgorithm uygulamasını ücretsiz olarak bilgisayarınıza indirip kurabilirsiniz. 
 http://www.flowgorithm.org/
 
 İyi Çalışmalar
