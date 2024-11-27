@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="dongu_ortalama"/>
+        <attribute name="authors" value="ogrt"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-11-06 11:05:08 &#214;&#214;"/>
+        <attribute name="created" value="b2dydDtMQUI2LU9HUkVUTUVOOzIwMjQtMTEtMDY7MTA6MzY6MDIgw5bDljsyOTAy"/>
+        <attribute name="edited" value="b2dydDtMQUI2LU9HUkVUTUVOOzIwMjQtMTEtMDY7MTE6MDU6MDggw5bDljsxOzMwMTM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="not1" type="Integer" array="False" size=""/>
+            <declare name="not2" type="Integer" array="False" size=""/>
+            <declare name="topOrt" type="Real" array="False" size=""/>
+            <assign variable="topOrt" expression="0"/>
+            <for variable="i" start="1" end="20" direction="inc" step="1">
+                <input variable="not1"/>
+                <input variable="not2"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

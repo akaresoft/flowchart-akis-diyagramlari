@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="for d&#246;ngusu"/>
+        <attribute name="authors" value="ogrt"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-25 04:15:15 &#214;S"/>
+        <attribute name="created" value="b2dydDtMQUI2LU9HUkVUTUVOOzIwMjQtMDktMjU7MDQ6MTE6MjQgw5ZTOzI3Nzk="/>
+        <attribute name="edited" value="b2dydDtMQUI2LU9HUkVUTUVOOzIwMjQtMDktMjU7MDQ6MTU6MTUgw5ZTOzE7Mjg5MQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="toplam, sayac" type="Integer" array="False" size=""/>
+            <assign variable="toplam" expression="0"/>
+            <assign variable="sayac" expression="0"/>
+            <for variable="sayac" start="1" end="5" direction="inc" step="1">
+                <assign variable="toplam" expression="toplam+sayac"/>
+            </for>
+            <output expression="&quot;Toplam =&quot;&amp; toplam" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

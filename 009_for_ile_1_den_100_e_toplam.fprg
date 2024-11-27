@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="009_for_ile_1_den_100_e_toplam"/>
+        <attribute name="authors" value="ogrt"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-11-27 11:39:06 &#214;&#214;"/>
+        <attribute name="created" value="b2dydDtMQUI2LU9HUkVUTUVOOzIwMjQtMTEtMjc7MTE6MzY6NTUgw5bDljsyOTE0"/>
+        <attribute name="edited" value="b2dydDtMQUI2LU9HUkVUTUVOOzIwMjQtMTEtMjc7MTE6Mzk6MDYgw5bDljsxOzMwMjE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="toplam" type="Integer" array="False" size=""/>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <assign variable="toplam" expression="0"/>
+            <for variable="i" start="1" end="100" direction="inc" step="1">
+                <assign variable="toplam" expression="toplam+i"/>
+            </for>
+            <output expression="&quot;Toplam sonucu=&quot;&amp;toplam" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
