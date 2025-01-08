@@ -4,13 +4,14 @@
         <attribute name="name" value="agac_sorusu"/>
         <attribute name="authors" value="honor"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2025-01-08 01:37:07 &#214;S"/>
+        <attribute name="saved" value="2025-01-08 01:45:55 &#214;S"/>
         <attribute name="created" value="aG9ub3I7QUtBUkVTT0ZUSE9OT1I7MjAyNS0wMS0wODswODo1MjoxNSDDlsOWOzMxNjY="/>
-        <attribute name="edited" value="aG9ub3I7QUtBUkVTT0ZUSE9OT1I7MjAyNS0wMS0wODswMTozNzowNyDDllM7MTszMTQw"/>
+        <attribute name="edited" value="aG9ub3I7QUtBUkVTT0ZUSE9OT1I7MjAyNS0wMS0wODswMTo0NTo1NSDDllM7MjszMTQz"/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
+            <comment text="Bir a&#287;ac&#305;n ba&#351;lang&#305;&#231; boyu, y&#305;ll&#305;k b&#252;y&#252;me oran&#305; ve y&#305;l de&#287;eri klavyeden al&#305;nacakt&#305;r. &#214;rne&#287;in ba&#351;lang&#305;&#231; boyu 1 metre olan a&#287;a&#231;, her y&#305;l &#246;nceki y&#305;l&#305;n %10 u kadar b&#252;y&#252;rse, 30 y&#305;l sonra boyu 17.449 metre olur.  Buna g&#246;re ak&#305;&#351; diyagram&#305;n&#305; Flowgorithm ile &#231;izip &#231;al&#305;&#351;t&#305;r&#305;n&#305;z, ak&#305;&#351; diyagram&#305;n&#305; s&#305;nav ka&#287;&#305;d&#305;na da &#231;iziniz"/>
             <declare name="i" type="Integer" array="False" size=""/>
             <declare name="yil" type="Real" array="False" size=""/>
             <declare name="boy" type="Real" array="False" size=""/>
