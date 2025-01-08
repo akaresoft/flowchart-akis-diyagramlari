@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="agac_sorusu"/>
+        <attribute name="authors" value="honor"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-01-08 01:37:07 &#214;S"/>
+        <attribute name="created" value="aG9ub3I7QUtBUkVTT0ZUSE9OT1I7MjAyNS0wMS0wODswODo1MjoxNSDDlsOWOzMxNjY="/>
+        <attribute name="edited" value="aG9ub3I7QUtBUkVTT0ZUSE9OT1I7MjAyNS0wMS0wODswMTozNzowNyDDllM7MTszMTQw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <declare name="yil" type="Real" array="False" size=""/>
+            <declare name="boy" type="Real" array="False" size=""/>
+            <declare name="buyumeOran" type="Integer" array="False" size=""/>
+            <output expression="&quot;Boy giriniz:&quot;" newline="True"/>
+            <input variable="boy"/>
+            <output expression="&quot;Y&#305;l giriniz:&quot;" newline="True"/>
+            <input variable="yil"/>
+            <output expression="&quot;B&#252;y&#252;me oran&#305; giriniz:&quot;" newline="True"/>
+            <input variable="buyumeOran"/>
+            <for variable="i" start="1" end="yil" direction="inc" step="1">
+                <assign variable="boy" expression="boy+boy*buyumeOran/100"/>
+            </for>
+            <output expression="&quot;A&#287;ac&#305;n &quot;&amp;yil&amp;&quot; sonraki boyu:&quot;&amp;boy" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
